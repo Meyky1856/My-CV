@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+h2{
+  font-size: 36px;
+}
+a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+#stiky {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  color: #000;
+  padding: 30px;
+  background-color: #40E0D0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.menu-kanan {
+  display: flex; 
+  gap: 15px;
+}
+
+#home {
+  height: calc(100vh - 90px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bungkus {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.info {
+  text-align: center;
+}
+
+
+.foto1 {
+  border: 2px solid #000;
+  width: 300px;2
+  height: 300px;
+  border-radius: 50%;
+}
+
+#about-me {
+  height: calc(100vh - 90px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.bold {
+  color: #40E0D0;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.heading {
+  text-align: center;
+}
+
+.foto2 {
+  border: 2px solid #000;
+  width: 400px;
+  height: 300px;
+  border-radius: 15px;
+}
+
